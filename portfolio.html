@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+<head>
+        <title>Portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+</head>
+
+<body style="background-image: url('portfolio.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;">
+        <div id="scrollProgress"></div>
+        
+
+        <div class="theme-container">
+            <label class="theme-switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider">
+            <span class="icon sun">☀️</span>
+            <span class="icon moon">🌙</span>
+            </span>
+            </label>
+        <div id="clock" class="clock"></div>
+        </div>
+
+        
+        <div class="d-flex justify-content-center mb-4  mt-5">
+            <img src="profile.jpg"
+                 alt="Mohammed Nabil Hossan"
+                 class="rounded-circle shadow profile-img">
+        </div>
+
+
+        <div class="container my-4 text-center">
+        <h1>
+            <div class="spinner-grow" role="status">
+            <span class="visually-hidden">Loading...</span>
+            </div>
+            <span class="badge rounded bg-dark text-white" id="typewriter"></span>
+        <div class="spinner-grow" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        </h1>
+           <p class="lead"> Student, Department of CSE, Premier University </p>
+        </div>
+        
+
+        <div class="d-flex justify-content-center align-items-center gap-2 mb-3 mt-3">
+            <span>Email:</span>
+            <span id="emailText">nabilhossan69@gmail.com</span>
+            <button id="copyEmail" class="btn btn-dark btn-sm">
+            Copy
+            </button>
+            <span id="copyMessage"></span>
+        </div>
+
+
+
+       <div class="container">
+         <nav>
+            <ul class="nav-pills nav justify-content-center">
+                <li class="nav-item mx-2">
+                    <a href="#" class="nav-link active bg-black text-white">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a href="#" class="nav-link text-dark">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">Contact</a>
+                </li>
+            </ul>
+        </nav>
+       </div>
+
+
+       <div class="container my-4 scroll-section">
+        <div class="row">
+                <h3 class="mb-4">About Me</h3>
+                <div class="card shadow p-3 mb-4">
+                    <div class="card-body user-select-none">
+                    I'm a Computer Science and Engineering (CSE) student at Premier University, with a passion for building systems that can see and understand the world.
+                    My interests lie in computer vision, artificial intelligence, and software development, where I enjoy turning ideas into practical, real-world solutions.
+                    I enjoy learning new technologies, solving challenging problems, and developing applications that are efficient, user-friendly, and impactful.
+                    Whether I'm working on academic projects or personal experiments, I'm always looking for opportunities to improve my skills and expand my knowledge.
+                    Beyond coding, I believe in continuous learning and staying curious about emerging technologies. My goal is to contribute to innovative projects that combine creativity with technology to solve meaningful problems.
+                    Thanks for visiting my portfolio. Feel free to explore my projects and get in touch if you'd like to collaborate!
+                </div>
+            </div>
+        </div>
+        <div class="row my-4 scroll-section">
+                <h3 class="mb-3">Educational Qualification</h3>
+                <div class="card shadow p-3 mb-4">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Secondary School Certificate (SSC)</strong></li>
+                        <li class="list-group-item">Science</li>
+                        <li class="list-group-item">2019</li>
+                    </ul>
+                </div>
+                <div class="card my-4 shadow p-3 mb-4">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Diploma In Engineering</strong></li>
+                        <li class="list-group-item">Computer Technology</li>
+                        <li class="list-group-item">2023</li>
+                    </ul>
+                </div>
+                <div class="card shadow p-3 mb-4">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Bachelor of Science (B.Sc)</strong></li>
+                        <li class="list-group-item">Computer Science and Engineering</li>
+                        <li class="list-group-item">2023</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        <div class="row my-4 scroll-section">
+            <h3 class="mb-3">Skills</h3>
+            <div class="card shadow mb-5">
+            <div class="card-body">
+            <div class="mb-4">
+                <div class="d-flex justify-content-between">
+                    <span><strong>Video Editing</strong></span>
+                    <span>90%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar skill-bar"
+                         data-width="90%"
+                         style="width: 0%;">
+                    </div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <div class="d-flex justify-content-between">
+                    <span><strong>UI/UX Design</strong></span>
+                    <span>80%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar skill-bar"
+                         data-width="80%"
+                         style="width: 0%;">
+                    </div>
+                </div>
+            </div>
+            <div class="mb-2">
+                <div class="d-flex justify-content-between">
+                    <span><strong>Photography</strong></span>
+                    <span>70%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar skill-bar"
+                         data-width="70%"
+                         style="width: 0%;">
+                    </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div id="projects" class="container my-5 scroll-section">
+            <h3 class="mb-4">Projects</h3>
+            <div class="row g-4">
+            <div class="col-md-4">
+            <div class="card shadow h-100">
+                <div class="card-body">
+                    <h5 class="card-title"> Project Coming Soon </h5>
+                    <p class="card-text"> A placeholder for my upcoming project. Details will be added soon. </p>
+                    <span class="badge bg-dark"> HTML </span>
+                    <span class="badge bg-dark"> CSS </span>
+                    <span class="badge bg-dark"> JavaScript </span>
+                    <div class="mt-3">
+                        <button class="btn btn-dark btn-sm" disabled>
+                            GitHub
+                        </button>
+                        <button class="btn btn-outline-dark btn-sm" disabled>
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow h-100">
+                <div class="card-body">
+                    <h5 class="card-title"> Future Project </h5>
+                    <p class="card-text"> This space will showcase another project in the future. </p>
+                    <span class="badge bg-dark"> Python </span>
+                    <span class="badge bg-dark"> AI </span>
+                    <div class="mt-3">
+                        <button class="btn btn-dark btn-sm" disabled>
+                            GitHub
+                        </button>
+                        <button class="btn btn-outline-dark btn-sm" disabled>
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow h-100">
+                <div class="card-body">
+                    <h5 class="card-title"> More Projects Coming Soon </h5>
+                    <p class="card-text"> New projects and experiments will be added here. </p>
+                    <span class="badge bg-dark"> CSE </span>
+                    <span class="badge bg-dark"> Development </span>
+                    <div class="mt-3">
+                        <button class="btn btn-dark btn-sm" disabled>
+                            GitHub
+                        </button>
+                        <button class="btn btn-outline-dark btn-sm" disabled>
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+        </div>
+
+
+
+
+        <div class="container my-4 scroll-section">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h3 class="mb-4 text-center">Contact Me</h3>        
+                    <div class="card shadow p-4">        
+                        <form id="contactForm">       
+                            <div class="mb-3">
+                                <label for="name" class="form-label">
+                                    Name
+                                </label>        
+                                <input
+                                    type="text"
+                                    id="name"
+                                    class="form-control"
+                                    placeholder="Enter your name"
+                                >        
+                                <div id="nameError" class="text-danger mt-1"></div>
+                            </div>        
+                            <div class="mb-3">
+                                <label for="email" class="form-label">
+                                    Email
+                                </label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    class="form-control"
+                                    placeholder="Enter your email"
+                                >
+                                <div id="emailError" class="text-danger mt-1"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">
+                                    Message
+                                </label>
+                                <textarea
+                                    id="message"
+                                    class="form-control"
+                                    rows="5"
+                                    placeholder="Write your message..."
+                                ></textarea>
+                                <div id="messageError" class="text-danger mt-1"></div>
+                            </div>
+                            <div class="text-center">
+                                <button
+                                    type="submit"
+                                    class="btn btn-dark">
+                                    Send Message
+                                </button>
+                            </div>
+                            <div
+                                id="successMessage"
+                                class="text-success text-center mt-3">
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                    </div>
+        </div>
+
+
+
+<button id="backToTop"
+       class="btn btn-dark rounded-circle"
+       style="position: fixed; bottom: 20px; right: 20px; display: none;"> 
+       ↑
+</button>
+
+
+<footer class="text-center">
+    <p>&copy; 2026 Mohammed Nabil Hossan</p>
+</footer>
+
+
+
+<script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+</script>
+
+
+<script>
+        const text = "Mohammed Nabil Hossan";
+        const target = document.getElementById("typewriter");
+        let index = 0;
+        function typeWriter() {
+        if (index < text.length) {
+        target.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, 100);
+            } else {
+        target.classList.add("typed-done");
+        }
+        }
+        document.addEventListener("DOMContentLoaded", typeWriter);
+
+
+
+        const clock = document.getElementById("clock");
+        function updateClock() {
+        const now = new Date();
+        const time = now.toLocaleTimeString();
+        clock.textContent = time;
+        }
+        updateClock();
+        setInterval(updateClock, 1000);
+
+
+
+        const copyEmail = document.getElementById("copyEmail");
+        const emailText = document.getElementById("emailText");
+        const copyMessage = document.getElementById("copyMessage");
+        copyEmail.addEventListener("click", () => {
+        navigator.clipboard.writeText(emailText.textContent)
+        .then(() => {
+        copyMessage.textContent = "✅ Copied!";
+        setTimeout(() => {
+        copyMessage.textContent = "";
+        }, 2000);
+        })
+        .catch(() => {
+        copyMessage.textContent = "❌ Failed to copy";
+        });
+        });
+
+
+        
+        const toggleBtn = document.getElementById("themeToggle");
+        const htmlEl = document.documentElement;
+        const savedTheme = localStorage.getItem("theme") || "light";
+        htmlEl.setAttribute("data-bs-theme", savedTheme);
+        updateButtonText(savedTheme);
+        toggleBtn.addEventListener("click", () => {
+        const currentTheme = htmlEl.getAttribute("data-bs-theme");
+        const newTheme = currentTheme === "light" ? "dark" : "light";
+        htmlEl.setAttribute("data-bs-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+        updateButtonText(newTheme);
+        });
+        function updateButtonText(theme) {
+        toggleBtn.textContent = theme === "light" ? "🌙 " : "☀️";
+        }
+
+
+
+        const backToTop = document.getElementById("backToTop");
+        const scrollProgress = document.getElementById("scrollProgress");
+        window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+        backToTop.style.display = "block";
+        } else {
+        backToTop.style.display = "none";
+        }
+        const scrollTop = window.scrollY;
+        const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPercentage = (scrollTop / documentHeight) * 100;
+        scrollProgress.style.width = scrollPercentage + "%";
+        });
+        backToTop.addEventListener("click", () => {
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+        });
+
+        
+
+        const skillBars = document.querySelectorAll(".skill-bar");
+        const skillObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            const bar = entry.target;
+            const width = bar.getAttribute("data-width");
+            bar.style.width = width;
+            skillObserver.unobserve(bar);
+        }
+        });
+        }, {
+        threshold: 0.5
+        });
+        skillBars.forEach((bar) => {
+        skillObserver.observe(bar);
+        });
+
+
+        
+        const sections = document.querySelectorAll(".scroll-section");
+        const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        }
+        });
+        }, {
+        threshold: 0.2
+        });
+        sections.forEach((section) => {
+        observer.observe(section);
+        });
+
+
+
+        const contactForm = document.getElementById("contactForm");
+        contactForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
+        const nameError = document.getElementById("nameError");
+        const emailError = document.getElementById("emailError");
+        const messageError = document.getElementById("messageError");
+        const successMessage = document.getElementById("successMessage");
+        nameError.textContent = "";
+        emailError.textContent = "";
+        messageError.textContent = "";
+        successMessage.textContent = "";
+        let valid = true;
+        if (name === "") {
+        nameError.textContent = "Please enter your name.";
+        valid = false;
+        }
+        if (email === "") {
+        emailError.textContent = "Please enter your email.";
+        valid = false;
+        } else if (!email.includes("@")) {
+        emailError.textContent = "Please enter a valid email.";
+        valid = false;
+        }
+        if (message === "") {
+        messageError.textContent = "Please enter a message.";
+        valid = false;
+        }
+        if (valid) {
+        successMessage.textContent = "✅ Thank you! Your message is ready to send.";
+        contactForm.reset();
+        }
+        });
+
+
+
+    </script>
+
+
+    <style>
+        #scrollProgress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 5px;
+        width: 0%;
+        background-color: black;
+        z-index: 9999;
+        transition: width 0.1s ease;
+        }
+
+
+
+        [data-bs-theme="dark"] #scrollProgress {
+        background-color: white;
+        }
+
+        [data-bs-theme="dark"] body {
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: darken;
+        }
+
+        .theme-container {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        z-index: 1000;
+        }
+
+
+        .theme-switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 30px;
+        }
+
+        .theme-switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+        }
+
+        .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        border-radius: 30px;
+        transition: background-color 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 6px;
+        }
+
+        .slider::before {
+        content: "";
+        position: absolute;
+        height: 24px;
+        width: 24px;
+        left: 3px;
+        top: 3px;
+        background-color: white;
+        border-radius: 50%;
+        transition: transform 0.3s ease;
+        z-index: 2;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+        .theme-switch input:checked + .slider {
+        background-color: #333;
+        }
+        .theme-switch input:checked + .slider::before {
+        transform: translateX(30px);
+        }
+        .icon {
+        font-size: 14px;
+        z-index: 1;
+        }
+
+        .profile-img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        object-position: center;
+        }
+
+
+        .skill-bar {
+        background-color: black !important;
+        transition: width 1.5s ease;
+        }
+
+
+        .scroll-section {
+        opacity: 0;
+        transform: translateY(60px);
+        transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        .scroll-section.show {
+        opacity: 1;
+        transform: translateY(0);
+        }
+
+
+        
+    </style>
+
+</body>
+</html>
